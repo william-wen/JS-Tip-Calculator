@@ -1,0 +1,58 @@
+body {
+  background-image: linear-gradient(to bottom right, red, yellow);
+  height: 100vh;
+}
+
+.centered-section {
+  width: 360px;
+  margin: 100px auto;
+  height: 525px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.calculator-heading {
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #1f030b;
+  height: 10%;
+  color: white;
+}
+
+.calculator-heading p{
+  padding-top: 20px;
+}
+
+.calculator-UI {
+  margin-left: 20px;
+}
+
+#billAmount {
+  width: 60%;
+  padding: 10px;
+  background-color: #f7f7f7;
+}
+
+#serviceQual {
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+#peopleNumber {
+  width: 60%;
+  padding: 10px;
+  background-color: #f7f7f7;
+}
+
+#calculate {
+  width: 200px;
+  height: 50px;
+  margin: 30px;
+  margin-left: 60px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: rgb(173,19,57);
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>JS Tip Calculator</title>
+    <link rel="stylesheet" type = "text/css" href="calculator.css"/>
+  </head>
+
+  <body>
+    <section class="centered-section">
+      <div class="calculator-heading">
+        <p> TIP CALCULATOR </p>
+      </div>
+      <div class="calculator-UI">
+        <form>
+          <p id="hello"> How much was your bill? </p>
+          <p> $
+            <input id="billAmount" type="text" placeholder="Enter Bill Amount">
+          </p>
+          <p> How was your service? </p>
+          <select id="serviceQual" required>
+            <option disabled selected value="nothing"> -- Choose an Option -- </option>
+            <option value="terrible"> THE SCALLOPS ARE FOCKING RAW - 5% </option>
+            <option value="bad"> Bad - 10% </option>
+            <option value="average"> Average - 15%</option>
+            <option value="good"> Good - 20%</option>
+            <option value="awesome"> My Worth It Winner - 25%</option>
+          </select>
+        </form>
+
+        <form>
+          <p> How many people are sharing the bill? </p>
+          <input id="peopleNumber" type="text" placeholder="Number of People"> people
+        </form>
+
+        <button type="button" id="calculate">CALCULATE!</button>
+
+      </div>
+    </section>
+  </body>
+</html>

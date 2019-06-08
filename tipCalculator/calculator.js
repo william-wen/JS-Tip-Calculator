@@ -23,6 +23,11 @@ function calculateTip() {
     alert('Please Enter Number for Bill Amount and # of People');
     return;
   }
+  
+  if (numberOfPeople.value < 1){
+    alert('Are you trying to break my code?');
+    return;
+  }
 
   if (input == "terrible") {
     tipPercentage = 0.05;

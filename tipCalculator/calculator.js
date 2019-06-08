@@ -14,6 +14,16 @@ function calculateTip() {
   //selectedIndex   returns the index of the option with the "selected" attribute
   let tipPercentage;
 
+  if (billAmount.value == "" || numberOfPeople.value == "" || input == "nothing"){
+    alert('Please Enter All Values');
+    return;
+  }
+
+  if (isNaN(billAmount.value) || isNaN(numberOfPeople.value)) {
+    alert('Please Enter Number for Bill Amount and # of People');
+    return;
+  }
+
   if (input == "terrible") {
     tipPercentage = 0.05;
   }
